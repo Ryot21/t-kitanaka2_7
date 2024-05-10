@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>コンセプト | 物件名</title>                                                           <!-- タイトルの頭に【...】はつけない -->
-    <link rel="icon" href="images/favicon.ico">                                                 <!-- 32px x 32px -->
-    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon.jpg">       <!-- 120px x 120px -->
+    <title>コンセプト | GRANCIA所沢 ～SUMIKA～ 新築分譲住宅 全2邸</title>                                                               <!-- タイトルの頭に【...】はつけない -->
+    <link rel="icon" href="images/favicon.ico">                                                   <!-- 32px x 32px -->
+    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon/grancia.jpg"> <!-- 120px x 120px -->
 
     <!-- デプロイ前に確認・サンプル -->
-    <meta name="keywords" content="市町村,地名,新築戸建or建築条件付き土地,グランシア,住協">
-    <meta name="description" content="">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="所沢市,北中,西武池袋線,小手指駅,西武新宿線,新所沢駅,新築戸建,グランシア,住協">
+    <meta name="description" content="
+        四季の移ろいが織りなす自然素材の共鳴を愉しむ典麗の棲、誕生―。
+        光とテクスチャーで暮らしを彩る、そんな棲（すみか）―。
+        住協グループのデザインチームはこの二邸に、そんなコンセプトをもたせ、飾らずシンプルにそのまま「SUMIKA」と名付けました。
+    ">
+    <meta name="format-detection" content="telephone=no" />
     <!-- SNS関係 -->
     <meta property="og:locale"       content="ja_JP"/>
-    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/template_html/concept.html"/>
-    <meta property="og:type"         content="article"/>                                         <!-- Top：website、下層ページ：article -->
-    <meta property="og:site_name"    content="住協グループの住まい情報"/>                          <!-- ページが属する大元のサイト名 -->
-    <meta property="og:title"        content="コンセプト | 物件名"/>                              <!-- SNS表示用のタイトル | 通常のタイトルと同じ内容 -->
-    <meta property="og:description"  content=""/>                                                <!-- SNS表示用の説明文 | 通常の説明文と同じ内容 -->
-    <meta property="og:image"        content="images/sns/sample-concept.jpg"/>                   <!-- SNS表示用のサムネイル 1200px × 630px -->
+    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/kitanaka2_7/concept.html">
+    <meta property="og:type"         content="article">                                         <!-- Top：website、下層ページ：article -->
+    <meta property="og:site_name"    content="住協グループの住まい情報"/>                         <!-- ページが属する大元のサイト名 -->
+    <meta property="og:title"        content="コンセプト | GRANCIA所沢 ～SUMIKA～ 新築分譲住宅 全2邸">                                <!-- SNS表示用のタイトル -->
+    <meta property="og:description"  content="
+        四季の移ろいが織りなす自然素材の共鳴を愉しむ典麗の棲、誕生―。
+        光とテクスチャーで暮らしを彩る、そんな棲（すみか）―。
+        住協グループのデザインチームはこの二邸に、そんなコンセプトをもたせ、飾らずシンプルにそのまま「SUMIKA」と名付けました。
+    ">                                                <!-- 通常のdescriptionと同じ内容 -->
+    <meta property="og:image"        content="images/sns/share.jpg">                            <!-- SNS表示用のサムネイル 1200px × 630px -->
     <!-- //SNS関係 -->
     <!--// デプロイ前に確認・サンプル -->
-    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/swiper.min.js"></script>
     <!-- Fonts / WEBフォントは使用しないこと -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -39,6 +48,7 @@
             location.replace(location.href.replace(/http:/, 'https:'));
         }
     </script>
+    <!-- //Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body class="p-concept js_humburgerClose">
 
@@ -56,12 +66,9 @@
 			<ul class="">
 				<li class=""><a class="s-SS -ws-n -left"  href="index.html"><span class="s-M pdr5 pdr4s">TOP</span>トップ</a></li>
 				<li class=""><a class="s-SS -ws-n -left -active"  href="concept.html"><span class="s-M pdr5 pdr4s">CONCEPT</span>コンセプト</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画・間取</a></li>
 				<li class=""><a class="s-SS -ws-n -left"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>参考プラン</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="equipment.html"><span class="s-M pdr5 pdr4s">EQUIPMENT</span>設備・仕様</a></li>
                 <li class=""><a class="s-SS -ws-n -left"  href="location.html"><span class="s-M pdr5 pdr4s">LOCATION</span>周辺環境</a></li>
-                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li>
-                <!-- <li class="mgb15 mgb15s"><label class="popup popup-open s-SS -ws-n -left" for="popup01"><span class="s-M pdr5 pdr4s">OVERVIEW</span>物件概要</label></li> -->
+                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協のすまい</a></li>
                 <!-- 物件概要はここには設置しないこと -->
                 <div class="c-hnav__contactArea">
                     <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="c-hnav__top navItem -lh-1">
@@ -83,7 +90,6 @@
             <div class="c-hnav__icon"><img src="images/favicon.ico" alt="住協のシンボル"></div> -->
 		</div>
 	</nav>
-
     <!-- header / TOPと各ページの構造が異なる -->
     <header id="header" class="c-header pdt1">
         <div class="c-header-wrapper pdb1"><!-- バナー表示エリア -->
@@ -93,12 +99,10 @@
                         <div class="c-contents -h-logo">
                             <div class="imgBox">
                                 <!-- PCサイズ：757x110 -->
-                                <img class="tb-pc" src="https://via.placeholder.com/757x110/?text=TB-PC 757x110">
+                                <img class="tb-pc" src="images/SVG/h-banner.svg" alt="グランシアSUMIKA 典麗の棲＜2style＞誕生－。">
                                 <!-- SPサイズ：325x110 -->
-                                <img class="sp" src="https://via.placeholder.com/325x110/?text=SP 325x110">
+                                <img class="sp" src="images/SVG/h-banner_s.svg" alt="グランシアSUMIKA 典麗の棲">
                             </div>
-                            <div class="c-contentsBox -logo-item01"><img src="images/logo/site-logo-bird01.png" alt="動かす画像1"></div>
-                            <div class="c-contentsBox -logo-item02"><img src="images/logo/site-logo-bird02.png" alt="動かす画像2"></div>
                             <!-- SOLD OUT -->
                             <!-- <div class="c-contentsBox -soldOut">
                                 <img src="images/item/soldout.png" alt="完売御礼 | おかげさまでお契約いただいきました！">
@@ -116,14 +120,14 @@
                             <br>
                             <span class="navItem-cTitle -sub s-SS -s-nav">RESERV</span>
                         </a>
-                        <div class="tag"><span class="s-S -s-nav -ws-n">物件名物件名／新築分譲住宅⚪︎号棟</span></div>
+                        <div class="tag"><span class="s-S -s-nav -ws-n">グランシア所沢 新築分譲住宅 全2邸</span></div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="tb-pc c-header-wrapper"><!-- ナビ表示エリア -->
             <nav class="c-header__navArea -navColor">
-                <ul class="c-header__navLists -col8">
+                <ul class="c-header__navLists -col6">
                     <li class="navItem">
                         <a href="index.html" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">トップ</span>
@@ -131,7 +135,7 @@
                             <span class="navItem-title -sub s-SS -s-nav">TOP</span>
                         </a>
                     </li>
-                    <li class="navItem ">
+                    <li class="navItem">
                         <a href="concept.html" class="-active navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">コンセプト</span>
                             <br>
@@ -139,24 +143,10 @@
                         </a>
                     </li>
                     <li class="navItem">
-                        <a href="layout.html" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">区画・間取</span>
-                            <br>
-                            <span class="navItem-title -sub s-SS -s-nav">LAYOUT</span>
-                        </a>
-                    </li>
-                    <li class="navItem">
                         <a href="plan.html" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">プラン</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">PLAN</span>
-                        </a>
-                    </li>
-                    <li class="navItem">
-                        <a href="equipment.html" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">設備・仕様</span>
-                            <br>
-                            <span class="navItem-title -sub s-SS -s-nav">EQUIPMENT</span>
                         </a>
                     </li>
                     <li class="navItem">
@@ -168,7 +158,7 @@
                     </li>
                     <li class="navItem">
                         <a href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">住協の家づくり</span>
+                            <span class="navItem-title -main s-M -s-nav">住協のすまい</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">QUALITY</span>
                         </a>
@@ -185,9 +175,9 @@
                             <li class="d-menu__item">
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup01">新築戸建</label>
                             </li>
-                            <li class="d-menu__item">
+                            <!-- <li class="d-menu__item">
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup02">建築条件付き土地</label>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- //ドロップメニュー -->
                     </li>
@@ -204,28 +194,152 @@
 
         <div class="c-contents -f-view w1100 mgb3 mgb5s">
             <div class="imgBox a-fade-blur">
-                <img class="sp" src="https://via.placeholder.com/750x500/?text=SP 750x500">
-                <img class="tb-pc" src="https://via.placeholder.com/1920x900/?text=TB-PC 1920xFREE">
+                <img class="" src="images/f-view/f-view01_concept_pc.jpg">
             </div>
-            <!-- SPのみ / ページタイトル -->
-            <h1 class="sp c-contentsBox -f-title -f-title_c -concept -shadow -ws-n s-3L a-fade -sp3">CONCEPT</h1>
+            <p class="-right a-fade -sp4"><span class="s-kome pdr4s">※画像はイメージです</span></p>
         </div>
         <!-- コンテンツ -->
         <div class="c-contents w1100 mgb10 mgb10s">
             <div class="c-contents-inner">
-                <!-- コンテンツ > タイトル -->
                 <h2 class="c-contents_MainTitle -icon -left -lh-n mgb2 mgb3s">
-                    ページタイトル
+                    四季の移ろいが織りなす自然素材の共鳴を愉しむ典麗の棲、<br class="sp">誕生ー。
                 </h2>
-                <!-- コンテンツ > 説明 -->
-                <p class="s-M -f-gothic -left -lh-1_5 -lh-1_5_s a-fadeUp -sc40">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br class="tb-pc"><br class="tb-pc">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                <p class="s-M -f-gothic -left -lh-1_5 -lh-1_5_s mgb20 mgb20s a-fadeUp -sc40">
+                    光とテクスチャーで暮らしを彩る、そんな棲（すみか）―。<br>
+                    住協グループのデザインチームはこの二邸に、そんなコンセプトをもたせ、飾らずシンプルにそのまま「SUMIKA」と名付けました。<br><br>
+                    設計段階で様々な建材を検討する中で出逢ったのが、セメントの質感を生かし、一枚として同じものがない無垢の素材である「SOLIDO」。〇〇風というフェイクではなく、素材そのものの価値を見つめ直したマテリアルは、「SUMIKA」という気取らないコンセプトの最適解だと直感し、この自然素材をエクステリア＆インテリア両方のメインアクセントに配しました。「SOLIDO」は雨や日差しなど自然と季節にもまれ、その風合いはゆるやかに麗しく変化していきます。<br><br>
+                    たっぷりとした採光性のぬくもり溢れるフロアデザインと、家族の情緒を育む柔和なニュアンスのイノセント・テクスチャーが魅力の新邸。けれんのないマテリアルと調和しながら、棲まう人とともに時間を刻んでいきます。
                 </p>
+                <div class="c-contents mgb20 mgb20s">
+                    <article>
+                        <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                            <li class="c-contents">
+                                <div>
+                                    <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeRight -sc-auto">[Accent Siding]<br>SOLIDO typeM-LAP</p>
+                                    <p class="tb-pc s-M -lh-2 -left a-fadeRight -sc-auto">
+                                        あえてセメント素材の質感をそのままに表現することで、フェイク建材には無い質感と自然素材との調和を目指したセメント系建築素材。重なりによる影が独特の美しい表情を創出します。コーキングの劣化を心配する必要もありません。
+                                    </p>
+                                    <p class="sp s-M -lh-1_5_s -left a-fadeRight -sc-auto">
+                                        フェイク建材には無い質感と自然素材との調和を目指したセメント系建築素材。
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="a-flipLeft -sc-auto">
+                                <div class="a-zoomImg">
+                                    <div class="imgBox"><img class="" src="images/pic/concept/concept_01.jpg"></div>
+                                    <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul class="c-flex -h-c_pc -col2_2">
+                            <li class="">
+                                <div class="">
+                                    <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeLeft -sc-auto">[Accent Siding]<br>アルテミュール／<br class="sp">アルテザート</p>
+                                    <p class="tb-pc s-M -lh-2 -left a-fadeLeft -sc-auto">
+                                        ソリッドでクールなマテリアルに、木目調の優しさを足し算することでよりメリハリのある洗練されたファサードに。天然材ならではの濃淡豊かな素材感を繊細に再現したレッドシダー柄は軒天井まで続き、さらにその意匠を際立たせます。
+                                    </p>
+                                    <p class="sp s-M -lh-1_5_s -left a-fadeLeft -sc-auto">
+                                        木目調の優しさを足し算することでよりメリハリのある洗練されたファサードに。
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="a-flipRight -sp5 -sc-auto">
+                                <div class="a-zoomImg">
+                                    <div class="imgBox"><img src="images/pic/concept/concept_02.jpg"></div>
+                                    <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <!-- コンテンツ -->
+                <div class="c-contents mgb20 mgb20s">
+                    <h2 class="c-contents_title -jyukyo -row02_s -b-btm s-LL -center mgb10 mgb15s">住協グループがプロデュースした全32棟からなる大型分譲地内の新邸</h2>
+                    <div class="imgBox mgb1 mgb1s"><img src="images/pic/concept/concept_03.jpg" alt=""></div>
+                    <p class="-right mgb5 mgb5s"><span class="s-kome pdr4s">※「Jリゾート西武台」（先行販売29棟）は全棟ご成約済みで<br class="sp">今回販売対象ではございません。</span></p>
+                    <p class="s-M -lh-2 -left mgb10 mgb10s">SUMIKAは全邸150㎡超のゆとりある大型分譲地「Jリゾート西武台」の一角に誕生します。グランシア所沢西武台・第一期分譲地の「ラミューズ」全70区画とあわせれば、100棟近い巨大なコミュニティに。家を、街を、未来をつくる。私たち住協グループの強みは、土地の仕入から街区設計～造成～建築～街づくりまでトータルでプロデュースできること。街並みや景観が美しく整うほか、同年代の家族や子どもたちが集まることで暮らしを豊かに醸成していきます。</p>
+                    <article>
+                        <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                            <li class="c-contents">
+                                <div>
+                                    <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeRight -sc-auto">街区内道路には<br class="sp">減速帯を施工</p>
+                                    <p class="tb-pc s-M -lh-2 -left a-fadeRight -sc-auto">
+                                        ゆとりのある6m幅員の街区内開発道路。人や車の出入りが少ないため、お子様も安心して外で遊べる住環境に。また、不審者の侵入などにも気付きやすいので防犯効果も期待できます。ほかにも減速帯を設置することで、車のスピードを抑制し、居住者の安全性を高めました。
+                                    </p>
+                                    <p class="sp s-M -lh-1_5_s -left a-fadeRight -sc-auto">
+                                        ゆとりのある6m幅員の街区内開発道路。人や車の出入りが少ないため、お子様も安心して外で遊べる住環境に。
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="a-flipLeft -sc-auto">
+                                <div class="a-zoomImg">
+                                    <div class="imgBox"><img class="" src="images/pic/concept/concept_04.jpg"></div>
+                                    <p class="-right a-fade -sp4"><span class="s-kome">※画像は「Jリゾート西武台」分譲当初の空撮写真で現況とは異なります。</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul class="c-flex -h-c_pc -col2_2">
+                            <li class="">
+                                <div class="">
+                                    <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeLeft -sc-auto">憩いの街区内公園が隣接</p>
+                                    <p class="tb-pc s-M -lh-2 -left a-fadeLeft -sc-auto">
+                                        放課後や休日などに子どもたちが憩う「北中ふれあい公園」が隣接。街区の入口部分に公園を設置することで良好なコミュニティを形成することができます。
+                                    </p>
+                                    <p class="sp s-M -lh-1_5_s -left a-fadeLeft -sc-auto">
+                                        放課後や休日などに子どもたちが憩う「北中ふれあい公園」が隣接。
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="a-flipRight -sp5 -sc-auto">
+                                <div class="a-zoomImg">
+                                    <div class="imgBox"><img src="images/pic/concept/concept_05.jpg"></div>
+                                    <p class="-right a-fade -sp4"><span class="s-kome">※「北中ふれあい公園」まで徒歩1分（約80m）</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                            <li class="c-contents">
+                                <div>
+                                    <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeRight -sc-auto">灯かり協定で美しく<br class="sp">安心の街並み</p>
+                                    <p class="tb-pc s-M -lh-2 -left a-fadeRight -sc-auto">
+                                        夜間も安心の灯かり協定を施した街区設計。「Jリゾート西武台」分譲地内全体でスポットライトやガーデンライトを標準採用することで防犯対策になり、美しい景観が整います。
+                                    </p>
+                                    <p class="sp s-M -lh-1_5_s -left a-fadeRight -sc-auto">
+                                        「Jリゾート西武台」分譲地内全体でスポットライトやガーデンライトを標準採用することで防犯対策になり、美しい景観が整います。
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="a-flipLeft -sc-auto">
+                                <div class="a-zoomImg">
+                                    <div class="imgBox"><img class="" src="images/pic/concept/concept_06.jpg"></div>
+                                    <p class="-right a-fade -sp4"><span class="s-kome">※画像は1号棟の完成イメージです。</span></p>
+                                    <p class="tb-pc -right a-fade -sp4"><span class="s-kome">SUMIKAには「スポットライト」が採用されます。</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <!-- コンテンツ02 -->
+                <div class="c-contents mgb20 mgb20s">
+                    <h2 class="c-contents_title -jyukyo02 -row02_s -b-btm s-LL -center mgb10 mgb15s">地盤の強い安心の立地、<br class="sp">注目の街・所沢を住みこなすー。</h2>
+                    <div class="imgBox mgb5 mgb5s"><img src="images/pic/concept/concept_07.jpg" alt=""></div>
+                    <p class="s-M -lh-2 -left">埼玉県における各ランキング調査において、所沢駅・所沢市はいずれも高い支持を獲得。建築物の支持地盤として安定しているといわれる「武蔵野台地」上に位置する安心のロケーションのほかに、都心への快適なアクセス力や高い商業利便性を持ちながらも、緑が多く落ち着いた住環境が高い人気の要因と言えそうです。</p>
+                </div>
+                <div class="c-contents">
+                    <div class="imgBox"><img src="images/pic/concept/concept_08.jpg" alt=""></div>
+                    <p class="-right mgb3 mgb3s"><span class="s-kome pdr4s">※画像はイメージです。</span></p>
+                    <p class="c-contents_subTitle s-L -s14 -left mgb3 mgb3s a-fadeRight -sc-auto">グランシア所沢「SUMIKA」限定の<br class="sp">ご成約キャンペーン！</p>
+                    <p class="s-M -lh-2 -left mgb3 mgb3s a-fadeRight -sc-auto">
+                        住協グループの創業45周年を記念して、グランシア所沢「SUMIKA」をご購入されたお客様には、特典として『商品券45万円分』をスペシャルプレゼント！生活家電や新しい家具の購入費用としてぜひお役立てください！
+                    </p>
+                    <p class="s-SS -left">※商品券は物件引き渡し時のお渡しになります。本キャンペーンは、今後の社会情勢その他の事由により予告なく変更、終了する場合がございます。他のサービスやキャンペーンとは原則併用できません。特典の権利を第三者へ譲渡等はできません。やむを得ない事情により賞品を同等品へ変更させていただく場合がございます。画像はイメージです。</p>
+                </div>
             </div>
 
         </div>
@@ -234,7 +348,7 @@
 
 
     <!-- footer -->
-    <footer id="footer" class="c-footer">
+    <footer id="footer" class="c-footer mgt-2">
         <div class="c-footer-wrapper mgb1 mgb10s">
             <div class="c-footer__contactArea">
                 <ul class="c-footer__contactLists">
@@ -242,28 +356,28 @@
                         <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">資料請求</span>
                             <br>
-                            <span class="contactItem_sub s-SS">REQUEST</span>
+                            <span class="contactItem_sub s-SS -s-nav">REQUEST</span>
                         </a>
                     </li>
                     <li class="contactItem">
                         <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712960745" class="-lh-1">
-                            <span class="contactItem_main s-L -s-nav">見学予約</span>
+                            <span class="contactItem_main -color02 s-L -s-nav">見学予約</span>
                             <br>
-                            <span class="contactItem_sub s-SS">RESERV</span>
+                            <span class="contactItem_sub -color02 s-SS -s-nav">RESERV</span>
                         </a>
                     </li>
                     <li class="tb-pc contactItem">
                         <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">お問い合わせ</span>
                             <br>
-                            <span class="contactItem_sub s-SS">INQUIRY</span>
+                            <span class="contactItem_sub s-SS -s-nav">INQUIRY</span>
                         </a>
                     </li>
                     <li class="tb-pc contactItem">
                         <a href="https://www.jyu-g.co.jp/" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">住まい情報トップ</span>
                             <br>
-                            <span class="contactItem_sub s-SS">HOME</span>
+                            <span class="contactItem_sub s-SS -s-nav">HOME</span>
                         </a>
                     </li>
                 </ul>
@@ -271,9 +385,10 @@
         </div>
         <div class="c-footer-wrapper -v02 mgb2 mgb10s">
             <nav class="c-footer__navArea">
-                <ul class="c-footer__navLists -col7">
+                <ul class="c-footer__navLists -col5">
+                    <!-- アクティブ箇所に「.-active」を付与して下さい。 -->
                     <li class="navItem_footer mgb2">
-                        <a href="index.html" class="-lh-1 -center">
+                        <a href="index.html" class=" -lh-1 -center">
                             <span class="s-S -s-nav">トップ</span>
                         </a>
                     </li>
@@ -283,18 +398,8 @@
                         </a>
                     </li>
                     <li class="navItem_footer mgb2">
-                        <a href="layout.html" class="-lh-1 -center">
-                            <span class="s-S -s-nav">区画・間取</span>
-                        </a>
-                    </li>
-                    <li class="navItem_footer mgb2">
                         <a href="plan.html" class="-lh-1 -center">
                             <span class="s-S -s-nav">プラン</span>
-                        </a>
-                    </li>
-                    <li class="navItem_footer mgb2">
-                        <a href="equipment.html" class="-lh-1 -center">
-                            <span class="s-S -s-nav">設備・仕様</span>
                         </a>
                     </li>
                     <li class="navItem_footer mgb2">
@@ -307,17 +412,12 @@
                             <span class="s-S -s-nav">住協の家づくり</span>
                         </a>
                     </li>
-                    <!-- <li class="navItem_footer mgb2">
-                        <a href="/" class="-lh-1">
-                            <span class="navItem_main s-S">物件概要</span>
-                        </a>
-                    </li> -->
                 </ul>
             </nav>
         </div>
-        <div class="c-footer__btnArea -col2 mgb4 mgb10s">
+        <div class="c-footer__btnArea mgb4 mgb10s">
             <!-- 物件概要ボタン -->
-            <ul class="c-flex -gaiyou -col2">
+            <ul class="c-flex -gaiyou">
                 <li>
                     <label class="s-S popup -color01 popup-open" for="popup01">
                         <span class="s-ML -s14 -center -ls-2">新築戸建</span><br>物件概要はこちら
@@ -334,37 +434,34 @@
                             </svg>
                         </label>
                         <!-- iframe -->
-                        <iframe id="inlineFrame01" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745（新築戸建）"></iframe>
+                        <iframe id="inlineFrame01" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745"></iframe>
                     </div>
                 </li>
-                <li>
+                <!-- <li>
                     <label class="s-S popup -color02 popup-open" for="popup02">
                         <span class="s-ML -s14 -center -ls-n">建築条件付き土地</span><br>物件概要はこちら
                     </label>
-                    <!-- 02.物件概要 > 建築条件付き土地 -->
                     <input type="checkbox" id="popup02" >
                     <label class="popup-overlay" for="popup02"></label>
                     <div class="popup-window">
-                        <!-- 閉じるボタン -->
                         <label class="popup-close" for="popup02">
                             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="0" y1="0" x2="18" y2="18" stroke="white" stroke-width="3"></line>
                                 <line x1="0" y1="18" x2="18" y2="0" stroke="white" stroke-width="3"></line>
                             </svg>
                         </label>
-                        <!-- iframe -->
-                        <iframe id="inlineFrame02" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745（建築条件付き土地）"></iframe>
+                        <iframe id="inlineFrame02" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/"></iframe>
                     </div>
-                </li>
+                </li> -->
             </ul>
             <!-- //物件概要ボタン -->
         </div>
         <div class="c-footer__shopArea">
             <ul class="c-footer__shopFlex">
-                <li><a href="https://www.jyu-g.co.jp/contents/office_info/取扱支店ナンバー" target="_blank"><img src="images/logo/SVG/sample-shop.svg" alt="住協 〇〇支店 情報"></a></li>
+                <li><a href="https://www.jyu-g.co.jp/contents/office_info/4" target="_blank"><img src="images/logo/SVG/shintokorozawa-shop.svg" alt="住協 新所沢支店 情報"></a></li>
                 <li>
-                    <img class="tb-pc" src="images/logo/SVG/sample-tel.svg" alt="住協 〇〇支店 電話番号">
-                    <a class="sp" href="tel:取扱支店電話番号"><img src="images/logo/SVG/sample-tel.svg" alt="住協 〇〇支店 電話番号"></a>
+                    <img class="tb-pc" src="images/logo/SVG/shintokorozawa-tel.svg" alt="住協 新所沢支店 電話番号">
+                    <a class="sp" href="tel:0120-28-7311"><img src="images/logo/SVG/shintokorozawa-tel.svg" alt="住協 新所沢支店 電話番号"></a>
                 </li>
             </ul>
         </div>

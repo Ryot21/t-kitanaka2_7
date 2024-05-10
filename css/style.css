@@ -407,7 +407,7 @@ h1.s-3L, h2.s-3L, h3.s-3L, h4.s-3L, h5.s-3L, h6.s-3L, p.s-3L, a.s-3L, span.s-3L,
 }
 h1.s-kome, h2.s-kome, h3.s-kome, h4.s-kome, h5.s-kome, h6.s-kome, p.s-kome, a.s-kome, span.s-kome, label.s-kome, button.s-kome {
   font-size: 1rem;
-  color: #dacebc;
+  color: #808080;
   transform: scale(0.8);
 }
 @media (width >= 768px) {
@@ -4244,6 +4244,8 @@ button.swiper-pagination-bullet {
 }
 .c-contents.-f-view {
   position: relative;
+}
+.c-contents.-f-view .imgBox {
   overflow: hidden;
 }
 @media (768px >= width) {
@@ -4510,6 +4512,19 @@ button.swiper-pagination-bullet {
     bottom: -30px;
   }
 }
+@media (width >= 768px) {
+  .c-contents_title.-b-btm.-row02::after {
+    bottom: -10px;
+  }
+}
+@media (768px >= width) {
+  .c-contents_title.-b-btm.-row02_s::before {
+    bottom: -30%;
+  }
+  .c-contents_title.-b-btm.-row02_s::after {
+    bottom: -25px;
+  }
+}
 .c-contents_title.-b-btm.-c01::after {
   background: #808080 !important;
 }
@@ -4599,6 +4614,14 @@ button.swiper-pagination-bullet {
 }
 .c-contents_title.-owner::before {
   content: "OWNER VOICE";
+  white-space: nowrap;
+}
+.c-contents_title.-jyukyo::before {
+  content: "LARGE COMMUNITY PRODUCED BY JYUKYO";
+  white-space: nowrap;
+}
+.c-contents_title.-jyukyo02::before {
+  content: "A CITY IN THE SPOTLIGHT";
   white-space: nowrap;
 }
 .c-contents_title.-sample::before {

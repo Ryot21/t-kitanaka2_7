@@ -33,6 +33,17 @@
                 bottom: -30px;
             }
         }
+        // 行
+        &.-row02{
+            @include min(768){&::after{bottom: -10px;}}
+            &_s{
+                @include max(768){
+                    &::before{bottom: -30%;}
+                    &::after{bottom: -25px;}
+                }
+            }
+        }
+
         // 色指定
         &.-c01{&::after{background: $site-color01 !important;}}
         &.-c02{&::after{background: $site-color02 !important;}}
@@ -70,6 +81,9 @@
     &.-spot{&::before{content: "RECOMMENDED SPOTS"; white-space: nowrap;}}          // スポット
     &.-portfolio{&::before{content: "CONSTRUCTION PORTFOLIO"; white-space: nowrap;}}// 施工例
     &.-owner{&::before{content: "OWNER VOICE"; white-space: nowrap;}}               // オーナー
+
+    &.-jyukyo{&::before{content: "LARGE COMMUNITY PRODUCED BY JYUKYO"; white-space: nowrap;}}
+    &.-jyukyo02{&::before{content: "A CITY IN THE SPOTLIGHT"; white-space: nowrap;}}
 
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
