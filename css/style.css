@@ -10,7 +10,7 @@ html {
 }
 
 body,
-ul, li {
+h1, h2, h3, h4, h5, h6, ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -379,7 +379,7 @@ h1.s-LL, h2.s-LL, h3.s-LL, h4.s-LL, h5.s-LL, h6.s-LL, p.s-LL, a.s-LL, span.s-LL,
 }
 @media (width >= 768px) {
   h1.s-LL, h2.s-LL, h3.s-LL, h4.s-LL, h5.s-LL, h6.s-LL, p.s-LL, a.s-LL, span.s-LL, label.s-LL, button.s-LL {
-    font-size: clamp(1.8rem, 3vw, 3rem);
+    font-size: clamp(1.8rem, 2.5vw, 3rem);
   }
 }
 @media (768px >= width) {
@@ -2691,7 +2691,7 @@ button.swiper-pagination-bullet {
 
 @media (width >= 768px) {
   .w1100 {
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -3944,7 +3944,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .navItem-cTitle.-main {
-    top: 37%;
+    top: 35%;
   }
 }
 .navItem-cTitle.-sub {
@@ -3957,12 +3957,12 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .navItem-cTitle.-sub {
-    top: 64%;
+    top: 67%;
   }
 }
 @media (width >= 1400px) {
   .navItem-cTitle.-sub {
-    top: 65%;
+    top: 67%;
   }
 }
 .navItem.-comingSoon {

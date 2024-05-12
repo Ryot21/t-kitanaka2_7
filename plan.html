@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プラン | 物件名</title>                                                               <!-- タイトルの頭に【...】はつけない -->
-    <link rel="icon" href="images/favicon.ico">                                                 <!-- 32px x 32px -->
-    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon.jpg">       <!-- 120px x 120px -->
+    <title>プラン | GRANCIA所沢 ～SUMIKA～ 新築分譲住宅 全2邸</title>                                                               <!-- タイトルの頭に【...】はつけない -->
+    <link rel="icon" href="images/favicon.ico">                                                   <!-- 32px x 32px -->
+    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon/grancia.jpg"> <!-- 120px x 120px -->
 
     <!-- デプロイ前に確認・サンプル -->
-    <meta name="keywords" content="市町村,地名,新築戸建or建築条件付き土地,グランシア,住協">
-    <meta name="description" content="">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="所沢市,北中,西武池袋線,小手指駅,西武新宿線,新所沢駅,新築戸建,グランシア,住協">
+    <meta name="description" content="
+        四季の移ろいが織りなす自然素材の共鳴を愉しむ典麗の棲、誕生―。
+        光とテクスチャーで暮らしを彩る、そんな棲（すみか）―。
+        住協グループのデザインチームはこの二邸に、そんなコンセプトをもたせ、飾らずシンプルにそのまま「SUMIKA」と名付けました。
+    ">
+    <meta name="format-detection" content="telephone=no" />
     <!-- SNS関係 -->
     <meta property="og:locale"       content="ja_JP"/>
-    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/template_html/plan.html"/>
-    <meta property="og:type"         content="article"/>                                         <!-- Top：website、下層ページ：article -->
-    <meta property="og:site_name"    content="住協グループの住まい情報"/>                          <!-- ページが属する大元のサイト名 -->
-    <meta property="og:title"        content="プラン | 物件名"/>                                 <!-- SNS表示用のタイトル | 通常のタイトルと同じ内容 -->
-    <meta property="og:description"  content=""/>                                                <!-- SNS表示用の説明文 | 通常の説明文と同じ内容 -->
-    <meta property="og:image"        content="images/sns/sample-plan.jpg"/>                      <!-- SNS表示用のサムネイル 1200px × 630px -->
+    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/kitanaka2_7/plan.html">
+    <meta property="og:type"         content="article">                                         <!-- Top：website、下層ページ：article -->
+    <meta property="og:site_name"    content="住協グループの住まい情報"/>                         <!-- ページが属する大元のサイト名 -->
+    <meta property="og:title"        content="プラン | GRANCIA所沢 ～SUMIKA～ 新築分譲住宅 全2邸">  <!-- SNS表示用のタイトル -->
+    <meta property="og:description"  content="
+        四季の移ろいが織りなす自然素材の共鳴を愉しむ典麗の棲、誕生―。
+        光とテクスチャーで暮らしを彩る、そんな棲（すみか）―。
+        住協グループのデザインチームはこの二邸に、そんなコンセプトをもたせ、飾らずシンプルにそのまま「SUMIKA」と名付けました。
+    ">                                                <!-- 通常のdescriptionと同じ内容 -->
+    <meta property="og:image"        content="images/sns/share.jpg">                            <!-- SNS表示用のサムネイル 1200px × 630px -->
     <!-- //SNS関係 -->
     <!--// デプロイ前に確認・サンプル -->
+
     <link rel="stylesheet" href="css/style.css">
     <script src="js/swiper.min.js"></script>
-    <script src="js/luminous.min.js"></script>
-
     <!-- Fonts / WEBフォントは使用しないこと -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -41,6 +48,7 @@
             location.replace(location.href.replace(/http:/, 'https:'));
         }
     </script>
+    <!-- //Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body class="p-plan js_humburgerClose">
 
@@ -49,21 +57,18 @@
 
     <!-- ハンバーガーメニュー -->
     <nav class="c-hnav a-scroll-on">
-		<input id="c-hnav__checkbox" class="c-hnav__cheakbox" type="checkbox"/>
-		<label class="c-hnav__button" for="c-hnav__checkbox">
+        <input id="c-hnav__checkbox" class="c-hnav__cheakbox" type="checkbox"/>
+        <label class="c-hnav__button" for="c-hnav__checkbox">
             <span></span>
         </label>
-		<label id="" class="c-hnav__cheakbox c-hnav__close" for="c-hnav__checkbox"></label>
-		<div class="c-hnav__content">
-			<ul class="">
-				<li class=""><a class="s-SS -ws-n -left"  href="index.html"><span class="s-M pdr5 pdr4s">TOP</span>トップ</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="concept.html"><span class="s-M pdr5 pdr4s">CONCEPT</span>コンセプト</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画・間取</a></li>
-				<li class=""><a class="s-SS -ws-n -left -active"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>参考プラン</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="equipment.html"><span class="s-M pdr5 pdr4s">EQUIPMENT</span>設備・仕様</a></li>
+        <label id="" class="c-hnav__cheakbox c-hnav__close" for="c-hnav__checkbox"></label>
+        <div class="c-hnav__content">
+            <ul class="">
+                <li class=""><a class="s-SS -ws-n -left"  href="index.html"><span class="s-M pdr5 pdr4s">TOP</span>トップ</a></li>
+                <li class=""><a class="s-SS -ws-n -left"  href="concept.html"><span class="s-M pdr5 pdr4s">CONCEPT</span>コンセプト</a></li>
+                <li class=""><a class="s-SS -ws-n -left -active"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>参考プラン</a></li>
                 <li class=""><a class="s-SS -ws-n -left"  href="location.html"><span class="s-M pdr5 pdr4s">LOCATION</span>周辺環境</a></li>
-                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li>
-                <!-- <li class="mgb15 mgb15s"><label class="popup popup-open s-SS -ws-n -left" for="popup01"><span class="s-M pdr5 pdr4s">OVERVIEW</span>物件概要</label></li> -->
+                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協のすまい</a></li>
                 <!-- 物件概要はここには設置しないこと -->
                 <div class="c-hnav__contactArea">
                     <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="c-hnav__top navItem -lh-1">
@@ -83,8 +88,8 @@
             <!--　ハンバーガー > ロゴ関係 -->
             <!-- <div class="c-hnav__logo"><img src="images/logo/SVG/grancia.svg" alt="住協ブランド GRANCIA"></div>
             <div class="c-hnav__icon"><img src="images/favicon.ico" alt="住協のシンボル"></div> -->
-		</div>
-	</nav>
+        </div>
+    </nav>
 
     <!-- header / TOPと各ページの構造が異なる -->
     <header id="header" class="c-header pdt1">
@@ -95,12 +100,10 @@
                         <div class="c-contents -h-logo">
                             <div class="imgBox">
                                 <!-- PCサイズ：757x110 -->
-                                <img class="tb-pc" src="https://via.placeholder.com/757x110/?text=TB-PC 757x110">
+                                <img class="tb-pc" src="images/SVG/h-banner.svg" alt="グランシアSUMIKA 典麗の棲＜2style＞誕生－。">
                                 <!-- SPサイズ：325x110 -->
-                                <img class="sp" src="https://via.placeholder.com/325x110/?text=SP 325x110">
+                                <img class="sp" src="images/SVG/h-banner_s.svg" alt="グランシアSUMIKA 典麗の棲">
                             </div>
-                            <div class="c-contentsBox -logo-item01"><img src="images/logo/site-logo-bird01.png" alt="動かす画像1"></div>
-                            <div class="c-contentsBox -logo-item02"><img src="images/logo/site-logo-bird02.png" alt="動かす画像2"></div>
                             <!-- SOLD OUT -->
                             <!-- <div class="c-contentsBox -soldOut">
                                 <img src="images/item/soldout.png" alt="完売御礼 | おかげさまでお契約いただいきました！">
@@ -118,14 +121,14 @@
                             <br>
                             <span class="navItem-cTitle -sub s-SS -s-nav">RESERV</span>
                         </a>
-                        <div class="tag"><span class="s-S -s-nav -ws-n">物件名物件名／新築分譲住宅⚪︎号棟</span></div>
+                        <div class="tag"><span class="s-S -s-nav -ws-n">グランシア所沢 新築分譲住宅 全2邸</span></div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="tb-pc c-header-wrapper"><!-- ナビ表示エリア -->
             <nav class="c-header__navArea -navColor">
-                <ul class="c-header__navLists -col8">
+                <ul class="c-header__navLists -col6">
                     <li class="navItem">
                         <a href="index.html" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">トップ</span>
@@ -134,17 +137,10 @@
                         </a>
                     </li>
                     <li class="navItem">
-                        <a href="concept.html" class="navItem__link -lh-1">
+                        <a href="concept.html" class=" navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">コンセプト</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">CONCEPT</span>
-                        </a>
-                    </li>
-                    <li class="navItem">
-                        <a href="layout.html" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">区画・間取</span>
-                            <br>
-                            <span class="navItem-title -sub s-SS -s-nav">LAYOUT</span>
                         </a>
                     </li>
                     <li class="navItem">
@@ -152,13 +148,6 @@
                             <span class="navItem-title -main s-M -s-nav">プラン</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">PLAN</span>
-                        </a>
-                    </li>
-                    <li class="navItem">
-                        <a href="equipment.html" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">設備・仕様</span>
-                            <br>
-                            <span class="navItem-title -sub s-SS -s-nav">EQUIPMENT</span>
                         </a>
                     </li>
                     <li class="navItem">
@@ -170,7 +159,7 @@
                     </li>
                     <li class="navItem">
                         <a href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">住協の家づくり</span>
+                            <span class="navItem-title -main s-M -s-nav">住協のすまい</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">QUALITY</span>
                         </a>
@@ -187,9 +176,9 @@
                             <li class="d-menu__item">
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup01">新築戸建</label>
                             </li>
-                            <li class="d-menu__item">
+                            <!-- <li class="d-menu__item">
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup02">建築条件付き土地</label>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- //ドロップメニュー -->
                     </li>
@@ -203,176 +192,293 @@
     <main class="c-container">
         <!-- ファーストビュー -->
         <div class="c-contents -f-view w1100 mgb3 mgb5s">
-            <div class="imgBox a-fade-blur">
-                <img class="sp" src="https://via.placeholder.com/750x500/?text=SP 750x500">
-                <img class="tb-pc" src="https://via.placeholder.com/1920x960/?text=TB-PC 1920x960">
+            <div class="imgBox">
+                <div class="tb-pc swiper swiper-Fview">
+                    <div class="swiper-wrapper">
+                        <!-- TOP > Slider > -f-slider -->
+                        <div class="swiper-slide">
+                            <div class="c-contents -f-slider -imgBg">
+                                <div class="imgBox zoom" style="padding: 2%;">
+                                    <img class="tb-pc" src="images/f-view/f-view01_plan_pc.jpg" alt="STYLE.1 Silk Titanium Grey with SOLIDO SABICHA">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="c-contents -f-slider -imgBg"><!-- -->
+                                <div class="imgBox zoom" style="padding: 2%;">
+                                    <img class="tb-pc" src="images/f-view/f-view02_plan_pc.jpg" alt="STYLE.2 Mak Titanium Black with SOLIDO CEMENT">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination -type01"></div>
+                </div>
+                <img class="sp" src="images/f-view/f-view01_plan_sp.jpg" alt="">
             </div>
-            <!-- SPのみ / ページタイトル -->
-            <h1 class="sp c-contentsBox -f-title -f-title_c -plan -shadow -ws-n s-3L  a-fade -sp3">PLAN</h1>
-            <p class="s-S -right a-fade -sp4"><span class="s-kome">※内観完成予想図</span></p>
+            <p class="s-S -right a-fade -sp4"><span class="s-kome">※掲載の完成予想図・CGパースは、<br class="sp">図面を基に描き起こしたもので、実際とは多少異なります。</span></p>
         </div>
         <div class="c-contents w1100 mgb10 mgb10s">
-            <div class="c-contents-inner">
+            <div class="c-contents-inner mgb10 mgb20s">
                 <!-- コンテンツ > タイトル -->
-                <h2 class="c-contents_MainTitle -icon -left -lh-n mgb2 mgb3s">
-                    ページタイトル
+                <h2 class="s-LL c-contents_MainTitle -icon -left mgb2 mgb3s">
+                    <span class="tb-pc">
+                        洗練された都会的なモダン＆ナチュラルのエクステリア・デザイン<br>
+                        45坪超とゆとりのある土地面積が悠然とした暮らしを形づくります。
+                    </span>
+                    <span class="sp -lh-1_5_s">
+                        洗練された都会的なモダン＆ナチュラルのエクステリア・デザイン
+                    </span>
                 </h2>
                 <!-- コンテンツ > 説明 -->
-                <p class="s-M -f-gothic -left -lh-1_5 -lh-1_5_s mgb20 mgb20s a-fadeUp -sc40">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br class="tb-pc"><br class="tb-pc">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                <p class="s-M -f-gothic -left -lh-2 a-fadeUp -sc40">
+                    落ち着いた色合いのマテリアルが織りなす重厚で研ぎ澄まされたスタイリッシュな外観が、住む人のライフスタイルをスマートに形づくる新邸。
+                    屋根材には耐震性やメンテナンスコストの軽減などが期待できる機能性の高いガルバリウム鋼板を採用した最新トレンドにもフィットするファサードが魅力的です。
                 </p>
             </div>
-
-            <!-- ---------------- 外観【SP2カラム、PC2カラム】 ------------------- -->
             <div class="c-contents w95 mgb10 mgb10s">
                 <article>
-                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
-                        <li class="c-contents">
-                            <div>
-                                <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeRight -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="tb-pc s-M -lh-2 -left a-fadeRight -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                                <p class="sp s-M -lh-1_5_s -left a-fadeRight -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
+                    <ul class="c-flex -col2_3 mgb10 mgb10s">
+                        <li class="mgb5 mgb5s a-flipLeft -sc-auto">
+                            <div class="a-zoomImg">
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-01.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※画像はイメージ</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">駐車並列2台</h3>
+                                <p class="s-S -left -lh-2">カースペースは並列2台。横に並べて停められるので、いつでも自由に車を出し入れできることが大きなメリットです。</p>
                             </div>
                         </li>
-                        <li class="a-flipLeft -sc40">
+                        <li class="mgb5 mgb5s a-flipLeft -sc1">
                             <div class="a-zoomImg">
-                                <div class="imgBox a-imgMono"><img class="" src="images/pic/layout_1-05.jpg"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-02.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※画像はイメージ</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">専用サイクルスペース</h3>
+                                <p class="s-S -left -lh-2">タイル貼りを施した専用のサイクルスペースを設けました。土地広の邸宅だからこそ叶う贅沢な外構デザインです。</p>
+                            </div>
+                        </li>
+                        <li class="mgb5 mgb5s a-flipLeft -sc2">
+                            <div class="a-zoomImg">
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-03.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※画像はイメージ</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">灯かりが美しい街並み</h3>
+                                <p class="s-S -left -lh-2">「Jリゾート西武台」分譲地内全体でスポットライトやガーデンライトを標準採用した夜間も安心の街区設計。</p>
+
+                            </div>
+                        </li>
+                        <li class="mgb5s a-flipLeft -sc-auto">
+                            <div class="a-zoomImg">
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-04.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※弊社施工事例</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">庭スペースには芝生</h3>
+                                <p class="s-S -left -lh-2">自宅に居ながら身近に自然を感じられる芝を配したお庭。クッションのように柔らかく小さなお子さまにも安心。</p>
+                            </div>
+                        </li>
+                        <li class="mgb5s a-flipLeft -sc1">
+                            <div class="a-zoomImg">
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-05.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※画像はイメージ</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">7種の色鮮やかな植栽</h3>
+                                <p class="s-S -left -lh-2">暮らしに自然を息吹を呼び込んでくれる豊富な植栽。四季の移り変わりを感じながら豊かに暮らすことができます。</p>
+                            </div>
+                        </li>
+                        <li class="mgb5s a-flipLeft -sc2">
+                            <div class="a-zoomImg">
+                                <div class="imgBox"><img class="" src="images/pic/plan/plan1-06.jpg"></div>
+                                <p class="-right mgb1 mgb1s a-fade -sp4"><span class="s-kome">※画像はイメージ</span></p>
+                                <h3 class="s-ML -b -left mgb2 mgb2s">散水栓</h3>
+                                <p class="s-S -left -lh-2">植栽やガーデニングスペースへの水やりはもちろん、洗車やサッシの掃除など、年間を通してお使いいただけます。</p>
+
                             </div>
                         </li>
                     </ul>
                 </article>
-
-                <article>
-                    <ul class="c-flex -h-c_pc -col2_2">
-                        <li class="">
-                            <div class="">
-                                <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="tb-pc s-M -lh-2 -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                                <p class="sp s-M -lh-1_5_s -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="a-flipRight -sp5 -sc40">
-                            <div class="a-zoomImg">
-                                <div class="imgBox"><img src="https://via.placeholder.com/480x320/?text=480x320"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
-
             </div>
-            <!-- ---------------- 【 > スライダー関係 】　---------------- -->
-            <div class="c-contents w95 mgb20 mgb20s">
-                <!-- <h2 class="c-contents_title -portfolio s-LL -center mgb10 mgb15s">施工例</h2> -->
-                <div class="swiper swiper-Build">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide">
-                            <a href="images/slider/example/build-pic01.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 1/5"><img src="images/slider/example/build-pic01.png" alt="施工事例　1/5"/></a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="images/slider/example/build-pic02.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 2/5"><img src="images/slider/example/build-pic02.png" alt="施工事例　2/5"/></a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="images/slider/example/build-pic03.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 3/5"><img src="images/slider/example/build-pic03.png" alt="施工事例　3/5"/></a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="images/slider/example/build-pic04.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 4/5"><img src="images/slider/example/build-pic04.png" alt="施工事例　4/5"/></a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="images/slider/example/build-pic05.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 5/5"><img src="images/slider/example/build-pic05.png" alt="施工事例　5/5"/></a>
-                        </li>
-                    </ul>
-                    <div class="sp swiper-button-prev"></div>
-                    <div class="sp swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-            <!-- ---------------- 内観【SP・PC1カラム】 ------------------- -->
+            <!-- ----------------【 タブエリア 】 ------------------- -->
             <div class="c-contents w95 mgb10 mgb10s">
-                <h2 class="c-contents_title -sample -b-btm s-LL -center mgb10 mgb15s">コンテンツタイトル</h2>
-                <div class="imgBox">
-                    <img class="mgb5 mgb5s" src="https://via.placeholder.com/1100x619/?text=ALL 1100x619(16:9)">
+                <div class="c-contents-inner">
+                    <div class="c-tabArea -col2" style="position: relative;">
+                        <input id="no1" type="radio" name="t-01" checked>
+                        <label class="tab-item -c01 s-L -color01 -center pdt1 pdt1s pdb1 pdb1s mgb5 mgb5s" for="no1"><span class="s-L -s14">＜No.1 / Koagari-Lounge Style＞</span></label>
+                        <input id="no2" type="radio" name="t-01" >
+                        <label class="tab-item -c02 s-L -color02 -center pdt1 pdt1s pdb1 pdb1s mgb5 mgb5s" for="no2"><span class="s-L -s14">＜No.2 / SKIP-DEN Style＞</span></label>
+
+                        <!-- 1号棟 -->
+                        <div class="tab-content" id="no1-content">
+                            <img class="a-fade -sp1" src="images/pic/plan/plan2-01.jpg" alt="1号棟_内観パース">
+                            <!-- 注釈 -->
+                            <p class="tb-pc -right a-fade -sp1 mgb2"><span class="s-kome pdr4s">※完成予想図・CGパースは図面を基に描き起こしたもので、実際とは多少異なります。</span></p>
+                            <p class="sp mgb10s -right a-fade -sp1"><span class="s-kome">※完成予想図・CGパースは、実際とは多少異なります。</span></p>
+                            <!-- タイトル -->
+                            <h2 class="s-LL -s18 c-contents_MainTitle -color02 -row02_s -left -lh-1_5 mgb2 mgb5s a-fade -sp1">家族の団らんと個の時間が充実する「+α」の心地よい空間</h2>
+                            <!-- テキスト -->
+                            <p class="s-M -left -lh-2 mgb10 mgb10s a-fade -sp1">
+                                【1号棟／小上がりラウンジ】キッズスペースとしてはもちろん、趣味や憩いのときを過ごせる小上がりラウンジを配したプラン。段差を設けることで空間にアクセントをもたせ、半個室感覚でリラックスできます。
+                            </p>
+                            <!-- 間取 / 画像 -->
+                            <img class="w90 w95s mgb10 mgb10s a-fade -sp1" src="images/pic/plan/plan2-02.jpg" alt="1号棟_間取図">
+                                <!-- 間取 / タイトル -->
+                                <h2 class="s-LL -s18 c-contents_MainTitle -color02 -row02_s -left -lh-1_5 mgb2 mgb5s a-fade -sp1">4LDK / SCL+全室収納+リビング収納+シェアカウンター</h2>
+                                <!-- 間取 / テキスト -->
+                                <p class="s-M -left -lh-2 mgb5 mgb20s a-fade -sp1">
+                                    土地面積：150.74㎡（約45.59坪）／ <br class="sp">建物面積：96.47㎡（1F:52.58㎡／2F：43.88㎡）<br>
+                                    建築確認番号：第SJX-KX235516950号（R6.1.30）
+                                </p>
+                            <div class="c-content">
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                                        <li class="c-contents">
+                                            <div>
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">畳敷きの小上がり<br class="sp">ラウンジ</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    インテリアに柔らかくなじむモカベージュのフロア畳が、より一層居心地の良い空間に仕上げます。インテリア格子はすっきりとした縦ラインが美しく、空間のアクセントに。開放感を保ちながら、それぞれの空間をゆるやかに間仕切りします。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    インテリアに柔らかくなじむモカベージュのフロア畳が、より一層居心地の良い空間に仕上げます。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan2-03.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像はイメージ</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 mgb10 mgb10s">
+                                        <li class="">
+                                            <div class="">
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">ファミリー<br class="sp">シェアカウンター</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    ダイニングの一角に様々な用途に使えるシェアカウンターを設えました。家事の合間にひと息ついて雑誌を読んだり、子どもの勉強や宿題を見てあげたり、パソコンや仕事の資料も置けるのでリビングで遊ぶお子さまを見守りながらリモートワークも可能です。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    ダイニングの一角に様々な用途に使えるシェアカウンターを設えました。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan2-04.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像はイメージです。</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                                        <li class="c-contents">
+                                            <div>
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">土間収納・シューズイン<br class="sp">クローゼット</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    靴を履いたまま出入りが出来る便利な土間収納。室内に持ち込めないベビーカーや遊具、スポーツ用品、アウトドアグッズなどの収納に便利なSICを備えたプランです。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    靴を履いたまま出入りが出来る便利な土間収納。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan2-05.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像は弊社施工事例です。</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2号棟 -->
+                        <div class="tab-content" id="no2-content">
+                            <img class="a-fade -sp1" src="images/pic/plan/plan3-01.jpg" alt="2号棟_内観パース">
+                            <!-- 注釈 -->
+                            <p class="tb-pc -right a-fade -sp1 mgb2"><span class="s-kome pdr4s">※完成予想図・CGパースは図面を基に描き起こしたもので、実際とは多少異なります。</span></p>
+                            <p class="sp mgb10s -right a-fade -sp1"><span class="s-kome">※完成予想図・CGパースは、実際とは多少異なります。</span></p>
+                            <!-- タイトル -->
+                            <h2 class="s-LL -s18 c-contents_MainTitle -color02 -row02_s -left -lh-1_5 mgb2 mgb5s a-fade -sp1">「ただいま手洗い」もできる集中動線で家事や育児の負担軽減に</h2>
+                            <!-- テキスト -->
+                            <p class="s-M -left -lh-2 mgb10 mgb10s a-fade -sp1">
+                                【2号棟／スキップDEN】段差で空間をゆるやかに区切ることで家族の顔が見えるリビングと程よい距離感のスキップDEN。カウンター下部はオープンタイプで足を伸ばしてのびのびとお使いいただけます。
+                            </p>
+                            <!-- 間取 / 画像 -->
+                            <img class="w90 w95s mgb10 mgb10s a-fade -sp1" src="images/pic/plan/plan3-02.jpg" alt="2号棟_間取図">
+                                <!-- 間取 / タイトル -->
+                                <h2 class="s-LL -s18 c-contents_MainTitle -color02 -row02_s -left -lh-1_5 mgb2 mgb5s a-fade -sp1">3LDK ／ スキップDEN＋SCL＋WIC＋パントリー＋リビング収納</h2>
+                                <!-- 間取 / テキスト -->
+                                <p class="s-M -left -lh-2 mgb5 mgb20s a-fade -sp1">
+                                    土地面積：150.75㎡（約45.60坪）／ <br class="sp">建物面積：97.23㎡（1F:52.96㎡／2F：44.27㎡）<br>
+                                    建築確認番号：第SJX-KX235517320号（R6.2.7）
+                                </p>
+                            <div class="c-content">
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                                        <li class="c-contents">
+                                            <div>
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">家族それぞれの時間を<br class="sp">満たす半個室空間</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    子ども達には秘密基地のような、段差を設けた空間。カウンターを設けることで、半個室の感覚で勉強も仕事も趣味にも活躍する嬉しいプラン。リビングダイニングにいる家族の気配を感じながら、個の時間を充実して過ごせます。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    カウンターを設けることで、半個室の感覚で勉強も仕事も趣味にも活躍する嬉しいプラン。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan3-03.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像はイメージ</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 mgb10 mgb10s">
+                                        <li class="">
+                                            <div class="">
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">マルチな<br class="sp">ウォークイン収納</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    水回り動線を集中することでよりマルチに活躍するウォークイン収納。可動棚つきでパントリーとして、さらに洗面室へ直接へアクセスできるので、リネン庫としてもお使いいただけます。直射日光が当たりにくい北側にプランニングすることで、食料品や調味料の保管も安心です。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    水回り動線を集中することでよりマルチに活躍するウォークイン収納。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan3-04.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像はイメージです。</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <article>
+                                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                                        <li class="c-contents">
+                                            <div>
+                                                <p class="c-contents_subTitle s-L -s14 -color02 -left mgb5 mgb5s">2帖の広々ウォークイン<br class="sp">クローゼット</p>
+                                                <p class="tb-pc s-M -lh-2 -left">
+                                                    大容量の収納WIC。衣類はもちろん、お子様のおもちゃやゴルフバックなど、大きなお荷物をお持ちの方や、季節物の家電製品やキャリーバック、お荷物が多い方でも安心のプラン。
+                                                </p>
+                                                <p class="sp s-M -lh-1_5_s -left">
+                                                    大容量の収納WIC。お荷物が多い方でも安心のプラン。
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="">
+                                            <div class="a-zoomImg">
+                                                <div class="imgBox"><img class="" src="images/pic/plan/plan3-05.jpg"></div>
+                                                <p class="-right"><span class="s-kome">※画像は弊社施工事例です。</span></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- ---------------- 内観【SP2カラム、PC2カラム】 ------------------- -->
-            <div class="c-contents w95 mgb10 mgb10s">
-                <article>
-                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
-                        <li class="">
-                            <div class="">
-                                <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeRight -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="s-M -lh-2 -lh-1_5_s -left a-fadeRight -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="a-flipLeft -sc40">
-                            <div class="a-zoomImg">
-                                <div class="imgBox"><img src="https://via.placeholder.com/480x320/?text=480x320"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
 
-                <article>
-                    <ul class="c-flex -h-c_pc -col2_2">
-                        <li class="">
-                            <div class="">
-                                <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="tb-pc s-M -lh-2 -lh-1_5_s -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                                <p class="sp s-M -lh-2 -lh-1_5_s -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="a-flipRight -sc40">
-                            <div class="a-zoomImg">
-                                <div class="imgBox"><img src="https://via.placeholder.com/480x320/?text=480x320"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
 
-            </div>
-            <!-- ---------------- 【 > スライダー関係　】　---------------- -->
-            <div class="c-contents w95 mgb20 mgb20s">
-                <!-- <h2 class="c-contents_title -portfolio s-LL -center mgb10 mgb15s">施工例</h2> -->
-                <div class="swiper swiper-Build">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide"><a href="images/slider/example/build-pic01.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 1/5"><img src="images/slider/example/build-pic01.png" alt="施工事例　1/5"/></a></li>
-                        <li class="swiper-slide"><a href="images/slider/example/build-pic02.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 2/5"><img src="images/slider/example/build-pic02.png" alt="施工事例　2/5"/></a></li>
-                        <li class="swiper-slide"><a href="images/slider/example/build-pic03.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 3/5"><img src="images/slider/example/build-pic03.png" alt="施工事例　3/5"/></a></li>
-                        <li class="swiper-slide"><a href="images/slider/example/build-pic04.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 4/5"><img src="images/slider/example/build-pic04.png" alt="施工事例　4/5"/></a></li>
-                        <li class="swiper-slide"><a href="images/slider/example/build-pic05.png" class="luminous" data-lightbox="build-pic" data-title="施工事例 5/5"><img src="images/slider/example/build-pic05.png" alt="施工事例　5/5"/></a></li>
-                    </ul>
-                    <div class="sp swiper-button-prev"></div>
-                    <div class="sp swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
 
 
 
@@ -383,7 +489,7 @@
 
 
     <!-- footer -->
-    <footer id="footer" class="c-footer">
+    <footer id="footer" class="c-footer mgt-2">
         <div class="c-footer-wrapper mgb1 mgb10s">
             <div class="c-footer__contactArea">
                 <ul class="c-footer__contactLists">
@@ -391,28 +497,28 @@
                         <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">資料請求</span>
                             <br>
-                            <span class="contactItem_sub s-SS">REQUEST</span>
+                            <span class="contactItem_sub s-SS -s-nav">REQUEST</span>
                         </a>
                     </li>
                     <li class="contactItem">
                         <a href="https://www.jyu-g.co.jp/contents/tour?checkid=712960745" class="-lh-1">
-                            <span class="contactItem_main s-L -s-nav">見学予約</span>
+                            <span class="contactItem_main -color02 s-L -s-nav">見学予約</span>
                             <br>
-                            <span class="contactItem_sub s-SS">RESERV</span>
+                            <span class="contactItem_sub -color02 s-SS -s-nav">RESERV</span>
                         </a>
                     </li>
                     <li class="tb-pc contactItem">
                         <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712960745" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">お問い合わせ</span>
                             <br>
-                            <span class="contactItem_sub s-SS">INQUIRY</span>
+                            <span class="contactItem_sub s-SS -s-nav">INQUIRY</span>
                         </a>
                     </li>
                     <li class="tb-pc contactItem">
                         <a href="https://www.jyu-g.co.jp/" class="-lh-1">
                             <span class="contactItem_main s-L -s-nav">住まい情報トップ</span>
                             <br>
-                            <span class="contactItem_sub s-SS">HOME</span>
+                            <span class="contactItem_sub s-SS -s-nav">HOME</span>
                         </a>
                     </li>
                 </ul>
@@ -420,9 +526,10 @@
         </div>
         <div class="c-footer-wrapper -v02 mgb2 mgb10s">
             <nav class="c-footer__navArea">
-                <ul class="c-footer__navLists -col7">
+                <ul class="c-footer__navLists -col5">
+                    <!-- アクティブ箇所に「.-active」を付与して下さい。 -->
                     <li class="navItem_footer mgb2">
-                        <a href="index.html" class="-lh-1 -center">
+                        <a href="index.html" class=" -lh-1 -center">
                             <span class="s-S -s-nav">トップ</span>
                         </a>
                     </li>
@@ -432,18 +539,8 @@
                         </a>
                     </li>
                     <li class="navItem_footer mgb2">
-                        <a href="layout.html" class="-lh-1 -center">
-                            <span class="s-S -s-nav">区画・間取</span>
-                        </a>
-                    </li>
-                    <li class="navItem_footer mgb2">
                         <a href="plan.html" class="-active -lh-1 -center">
                             <span class="s-S -s-nav">プラン</span>
-                        </a>
-                    </li>
-                    <li class="navItem_footer mgb2">
-                        <a href="equipment.html" class="-lh-1 -center">
-                            <span class="s-S -s-nav">設備・仕様</span>
                         </a>
                     </li>
                     <li class="navItem_footer mgb2">
@@ -456,17 +553,12 @@
                             <span class="s-S -s-nav">住協の家づくり</span>
                         </a>
                     </li>
-                    <!-- <li class="navItem_footer mgb2">
-                        <a href="/" class="-lh-1">
-                            <span class="navItem_main s-S">物件概要</span>
-                        </a>
-                    </li> -->
                 </ul>
             </nav>
         </div>
-        <div class="c-footer__btnArea -col2 mgb4 mgb10s">
+        <div class="c-footer__btnArea mgb4 mgb10s">
             <!-- 物件概要ボタン -->
-            <ul class="c-flex -gaiyou -col2">
+            <ul class="c-flex -gaiyou">
                 <li>
                     <label class="s-S popup -color01 popup-open" for="popup01">
                         <span class="s-ML -s14 -center -ls-2">新築戸建</span><br>物件概要はこちら
@@ -483,64 +575,49 @@
                             </svg>
                         </label>
                         <!-- iframe -->
-                        <iframe id="inlineFrame01" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745（新築戸建）"></iframe>
+                        <iframe id="inlineFrame01" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745"></iframe>
                     </div>
                 </li>
-                <li>
+                <!-- <li>
                     <label class="s-S popup -color02 popup-open" for="popup02">
                         <span class="s-ML -s14 -center -ls-n">建築条件付き土地</span><br>物件概要はこちら
                     </label>
-                    <!-- 02.物件概要 > 建築条件付き土地 -->
                     <input type="checkbox" id="popup02" >
                     <label class="popup-overlay" for="popup02"></label>
                     <div class="popup-window">
-                        <!-- 閉じるボタン -->
                         <label class="popup-close" for="popup02">
                             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="0" y1="0" x2="18" y2="18" stroke="white" stroke-width="3"></line>
                                 <line x1="0" y1="18" x2="18" y2="0" stroke="white" stroke-width="3"></line>
                             </svg>
                         </label>
-                        <!-- iframe -->
-                        <iframe id="inlineFrame02" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/712960745（建築条件付き土地）"></iframe>
+                        <iframe id="inlineFrame02" title="Inline Frame Example" src="https://www.jyu-g.co.jp/contents/detail/"></iframe>
                     </div>
-                </li>
+                </li> -->
             </ul>
             <!-- //物件概要ボタン -->
         </div>
         <div class="c-footer__shopArea">
             <ul class="c-footer__shopFlex">
-                <li><a href="https://www.jyu-g.co.jp/contents/office_info/取扱支店ナンバー" target="_blank"><img src="images/logo/SVG/sample-shop.svg" alt="住協 〇〇支店 情報"></a></li>
+                <li><a href="https://www.jyu-g.co.jp/contents/office_info/4" target="_blank"><img src="images/logo/SVG/shintokorozawa-shop.svg" alt="住協 新所沢支店 情報"></a></li>
                 <li>
-                    <img class="tb-pc" src="images/logo/SVG/sample-tel.svg" alt="住協 〇〇支店 電話番号">
-                    <a class="sp" href="tel:取扱支店電話番号"><img src="images/logo/SVG/sample-tel.svg" alt="住協 〇〇支店 電話番号"></a>
+                    <img class="tb-pc" src="images/logo/SVG/shintokorozawa-tel.svg" alt="住協 新所沢支店 電話番号">
+                    <a class="sp" href="tel:0120-28-7311"><img src="images/logo/SVG/shintokorozawa-tel.svg" alt="住協 新所沢支店 電話番号"></a>
                 </li>
             </ul>
         </div>
     </footer>
     <!-- //footer -->
 
-    <!-- 固定アイテム -->
-    <!-- <div class="c-btn-fixed">
-        <ul class="c-btn-lists">
-            <li><a class="" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=物件番号">資料請求</a></li>
-            <li><a class="" href="https://www.jyu-g.co.jp/contents/tour?checkid=物件番号">見学予約</a></li>
-        </ul>
-    </div> -->
-    <!-- //固定アイテム -->
+    
 
     <script>
-        // 施工例スライダー
-        const buildSwiper = new Swiper(".swiper-Build", {
-            effect: 'slide',
-            mousewheel: {
-                invert: false,
-            },
-            centeredSlides: true,
-            slidesPerView: 1,
+        // トップページ > fristView
+        const FviewSwiper = new Swiper(".swiper-Fview", {
+            effect: 'fade',
             fadeEffect: {crossFade: true,},
-            loop: true,
-            // speed: 3000,
+            // loop: true,
+            speed: 3000,
             autoplay: {
                 delay: 5000,
                 disableOnInteraction: false,
@@ -548,20 +625,13 @@
             },
             grabCursor: true,
             followFinger: false,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
             pagination: {
                 el: '.swiper-Fview .swiper-pagination',
                 clickable: true,
             },
-            breakpoints: {
-                768: {slidesPerView: 3,},
-                980: {slidesPerView: 3,},
-            }
         });
-        
+
+
         // ポップアップ
         var luminousTrigger = document.querySelectorAll('.luminous');
         var options = {
