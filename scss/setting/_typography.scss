@@ -50,8 +50,8 @@ $f-b: bold;
 // 基本テキスト
 h1,h2,h3,h4,h5,h6,p,a,span,label,button{
 	color: $main-color--b;
-	// font-family: $f-mincho02;
-    font-family: $f-gothic02;
+	font-family: $f-mincho02;
+    // font-family: $f-gothic02;
     font-weight: $f-n;
     font-style: normal;
     // text-wrap: balance;
@@ -105,6 +105,8 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
     // フォントファミリー(ローカルフォント)
     &.-f-mincho01{font-family: mincho-font01;}// しっぽり
     &.-f-gothic01{font-family: gothic-font01;}// セザンヌ
+    &.-f-mincho02{font-family: mincho-font02;}// しっぽり
+    &.-f-gothic02{font-family: gothic-font02;}// セザンヌ
     &.-f-En01{font-family: e-font01;}         // BebasNeue
     &.-f-En02{font-family: e-font02;}         // impact
     &.-f-En03{font-family: e-font03;}         // garamond
