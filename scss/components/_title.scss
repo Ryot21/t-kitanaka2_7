@@ -68,7 +68,7 @@
     &.-plan{&::before{content: "PLAN"; white-space: nowrap;}}                       // プラン
 
     &.-basinArea{&::before{content: "THE BASIN AREA"; white-space: nowrap;}}        // 水回り
-    &.-kitchen{&::before{content: "KITCHEN";}}                                      // キッチン
+    &.-kitchen{&::before{content: "KITCHEN AND SANITARY";}}                                      // キッチン
     &.-bathroom{&::before{content: "BATHROOM";}}                                    // お風呂
     &.-window{&::before{content: "WINDOW";}}                                        // 窓
     &.-entrance{&::before{content: "ENTRANCE";}}                                    // 玄関
@@ -85,6 +85,7 @@
     &.-jyukyo{&::before{content: "LARGE COMMUNITY PRODUCED BY JYUKYO"; white-space: nowrap;}}
     &.-jyukyo02{&::before{content: "A CITY IN THE SPOTLIGHT"; white-space: nowrap;}}
     &.-youtube{&::before{content: "YOUTUBE"; white-space: nowrap;}}
+    &.-aa{&::before{content: "CONVENIENT AND COMFORTABLE"; white-space: nowrap;}} 
 
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
