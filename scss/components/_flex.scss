@@ -277,6 +277,7 @@
     }
     // コンテンツカラム（sp:pc 2:4）
     &.-col2_4{
+        flex-wrap: wrap;
         li{
             @include max(768){
                 width: calc(50% - 5px);

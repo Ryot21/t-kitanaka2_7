@@ -4598,7 +4598,7 @@ button.swiper-pagination-bullet {
   content: "DAILY USE";
 }
 .c-contents_title.-access::before {
-  content: "ACCESS";
+  content: "COMFORTABLE ACCESS";
 }
 .c-contents_title.-location::before {
   content: "SURROUNDING ENVIRONMENT";
@@ -4622,6 +4622,10 @@ button.swiper-pagination-bullet {
 }
 .c-contents_title.-jyukyo02::before {
   content: "A CITY IN THE SPOTLIGHT";
+  white-space: nowrap;
+}
+.c-contents_title.-youtube::before {
+  content: "YOUTUBE";
   white-space: nowrap;
 }
 .c-contents_title.-sample::before {
@@ -5280,6 +5284,9 @@ button.swiper-pagination-bullet {
     margin-left: 15px;
   }
 }
+.c-flex.-col2_4 {
+  flex-wrap: wrap;
+}
 @media (768px >= width) {
   .c-flex.-col2_4 li {
     width: calc(50% - 5px);
@@ -5802,6 +5809,7 @@ button:hover {
 /*    Link
 --------------------------------------------------------------------------------*/
 a {
+  display: block;
   transition: 0.3s;
   color: #3b3b3b;
 }
@@ -6238,6 +6246,19 @@ a {
   }
 }
 
+.c-video {
+  margin: auto;
+}
+@media (width >= 768px) {
+  .c-video {
+    width: 80%;
+  }
+}
+@media (width >= 1000px) {
+  .c-video {
+    width: 50%;
+  }
+}
 .c-video .c-videoWrap {
   padding-top: 56.25%;
   width: 100%;
@@ -6251,6 +6272,31 @@ a {
   top: 0px;
   left: 0px;
 }
+
+.c-youtubeBox {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  aspect-ratio: 16/9;
+  border: 1px solid #3b3b3b;
+  box-shadow: 1px 1px 5px #8d8d8d;
+}
+@media (width >= 768px) {
+  .c-youtubeBox {
+    width: 65%;
+    padding: 10px;
+  }
+}
+.c-youtubeBox .c-youtubeBox-inner {
+  height: -webkit-fill-available;
+  margin: auto;
+}
+.c-youtubeBox iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .c-tabArea {
   margin: auto;
   text-align: center;

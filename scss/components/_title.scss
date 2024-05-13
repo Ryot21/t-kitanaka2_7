@@ -76,7 +76,7 @@
     &.-skyBalcony{&::before{content: "SKY BALCONY"; white-space: nowrap;}}          // スカイバルコニー
 
     &.-deilyUse{&::before{content: "DAILY USE";}}                                   // 周辺環境
-    &.-access{&::before{content: "ACCESS";}}                                        // アクセス
+    &.-access{&::before{content: "COMFORTABLE ACCESS";}}                            // アクセス
     &.-location{&::before{content: "SURROUNDING ENVIRONMENT"; white-space: nowrap;}}// 交通
     &.-spot{&::before{content: "RECOMMENDED SPOTS"; white-space: nowrap;}}          // スポット
     &.-portfolio{&::before{content: "CONSTRUCTION PORTFOLIO"; white-space: nowrap;}}// 施工例
@@ -84,6 +84,7 @@
 
     &.-jyukyo{&::before{content: "LARGE COMMUNITY PRODUCED BY JYUKYO"; white-space: nowrap;}}
     &.-jyukyo02{&::before{content: "A CITY IN THE SPOTLIGHT"; white-space: nowrap;}}
+    &.-youtube{&::before{content: "YOUTUBE"; white-space: nowrap;}}
 
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
